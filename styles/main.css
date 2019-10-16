@@ -7,7 +7,9 @@ html, body {
     width: 100vw;
     height: 100vh;
     background: url(../assets/blurred_720.png);
-    background-attachment: fixed; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;;
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -16,7 +18,7 @@ html, body {
 
 #root > .header > .title {
     background: rgba(255, 255, 255, 0.2);
-    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 10px 10px;
+    box-shadow: #ffffff33 0px 0px 10px 10px;
     padding: 10px;
     font-size: 4em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
